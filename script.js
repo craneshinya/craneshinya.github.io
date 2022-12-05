@@ -18,7 +18,7 @@ navigator.mediaDevices.getUserMedia({video: true, audio: true})
 var peerid = "p" + Math.floor(Math.random() * 100);
 console.log(peerid);
 peer = new Peer(peerid, {
-    key: 'INPUT YOUR API KEY',
+    key: 'b66f7a9f-b47e-45ae-b66b-c1e057ff15bb',
     debug: 3
 });
 
